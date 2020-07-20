@@ -1,0 +1,28 @@
+{
+  "Header": {
+    "mojeKonto": "My account"
+  },
+  "SubHeader": {
+    "numerRezerwacji": "No. of your reservation:",
+    "zmien": "Change"
+  },
+  "Footer": {
+    "przydatneInformacje": "Useful information",
+    "dlaKupujacego": "For the buyer",
+    "kontakt": "Contact",
+    "metodyPlatnosci": "Payment method"
+  },
+  "SubFooter": {
+    "regulaminSklepu": "Shop rules",
+    "regulaminAukcjiBiletowLotniczych": "Rules of Plane tickets auction",
+    "regulaminAukcjiBagazu": "Rules of luggage auction",
+    "regulaminAukcji": "Rules of auction",
+    "pomoc": "Help",
+    "sposobyDostawy": "Delivery method",
+    "zwrotyGwarancje": "Return and warranty",
+    "ofertaMiles": "Miles&More offer",
+    "mapaSerwisu": "Service map",
+    "telefon": "Phone number",
+    "formularzKontaktowy": "Contact form"
+  }
+}

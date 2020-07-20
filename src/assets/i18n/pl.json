@@ -1,0 +1,28 @@
+{
+  "Header": {
+    "mojeKonto": "Moje konto"
+  },
+  "SubHeader": {
+    "numerRezerwacji": "Numer Twojej rezerwacji:",
+    "zmien": "Zmień"
+  },
+  "Footer": {
+    "przydatneInformacje": "Przydatne Informacje",
+    "dlaKupujacego": "Dla kupujacego",
+    "kontakt": "Kontakt",
+    "metodyPlatnosci": "Metody płatności"
+  },
+  "SubFooter": {
+    "regulaminSklepu": "Regulamin Sklepu",
+    "regulaminAukcjiBiletowLotniczych": "Regulamin Aukcji Biletów Lotniczych",
+    "regulaminAukcjiBagazu": "Regulamin Aukcji Bagażu",
+    "regulaminAukcji": "Regulamin Aukcji",
+    "pomoc": "Pomoc",
+    "sposobyDostawy": "Sposoby Dostawy",
+    "zwrotyGwarancje": "Zwroty i gwarancje",
+    "ofertaMiles": "Oferta Miles&More",
+    "mapaSerwisu": "Mapa serwisu",
+    "telefon": "Telefon",
+    "formularzKontaktowy": "Formularz kontaktowy"
+  }
+}

@@ -13,3 +13,5 @@ export class InformationComponent implements OnInit {
   }
 
 }
+
+
