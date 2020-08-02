@@ -12,6 +12,9 @@ import {OfferComponent} from '../components/footer/offer/offer.component';
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {HttpClientModule, HttpClient} from '@angular/common/http';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import {DropdownTranslationComponent} from '../components/header/dropdown-translation/dropdown-translation.component';
+import {DescriptionComponent} from '../components/body/description/description.component';
+import {PictureComponent} from '../components/body/picture/picture.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import {TranslateHttpLoader} from '@ngx-translate/http-loader';
     MenuComponent,
     ReservationComponent,
     InformationComponent,
-    OfferComponent
+    OfferComponent,
+    DropdownTranslationComponent,
+    DescriptionComponent,
+    PictureComponent
   ],
   imports: [
     BrowserModule,

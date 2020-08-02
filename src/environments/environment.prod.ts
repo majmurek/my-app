@@ -1,3 +1,6 @@
+import {Language} from '../model';
+
 export const environment = {
-  production: true
+  production: true,
+  language: Language.PL
 };

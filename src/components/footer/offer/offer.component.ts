@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-offer',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OfferComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+  }
+
 
   ngOnInit(): void {
   }
 
+  onSocialMedia(url: string): void {
+    window.open(url, '_blank');
+  }
 }

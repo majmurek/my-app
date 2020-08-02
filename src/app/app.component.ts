@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
+import {environment} from '../environments/environment';
+
 
 @Component({
   selector: 'app-root',
@@ -14,8 +16,8 @@ export class AppComponent {
   }
 
   constructor(translate: TranslateService){
-    translate.setDefaultLang('en');
-    translate.use('en');
+    translate.setDefaultLang(environment.language);
+    translate.use(environment.language);
   }
 }
 
