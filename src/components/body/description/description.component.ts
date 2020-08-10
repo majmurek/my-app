@@ -1,20 +1,19 @@
 import {Component, OnInit} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {LostLuggage} from '../../../model';
+import {ApiService} from '../../../services/api.service';
 
 @Component({
   selector: 'app-description',
   templateUrl: './description.component.html',
-  styleUrls: ['./description.component.css']
+  styleUrls: ['./description.component.scss']
 })
 export class DescriptionComponent implements OnInit {
 
   lostLuggage: LostLuggage;
 
-  constructor(private http: HttpClient) {
-    this.http.get('/api/lostluggage')
-      .subscribe((value: any) => this.lostLuggage = value);
-
+  constructor(private api: ApiService) {
+    api.lostLuggage().subscribe(value => this.lostLuggage = value);
   }
 
   ngOnInit(): void {
