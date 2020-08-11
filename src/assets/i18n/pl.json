@@ -23,6 +23,26 @@
     "ofertaMiles": "Oferta Miles&More",
     "mapaSerwisu": "Mapa serwisu",
     "telefon": "Telefon",
-    "formularzKontaktowy": "Formularz kontaktowy"
+    "formularzKontaktowy": "Formularz kontaktowy",
+    "stronaGlowna": "Strona Główna",
+    "odwiedzNas": "Odwiedź nas na: "
+  },
+  "Placeholder": {
+    "szukajProduktu": "Szukaj produktu..."
+  },
+  "Body": {
+    "dostawaOd": "Dostawa od: ",
+    "doKonca": "Do końca pozostało: ",
+    "aktualnaCena": "Aktualna cena ",
+    "cenaKupTeraz": "Cena kup teraz ",
+    "zawartoscStrony": "Zawartość strony nie jest dostępna",
+    "zagubionyBagaz": "Zagubiony bagaż nr: ",
+    "dostawaPoklad": "Dostawa na pokład",
+    "dostawaAdres": "Dostawa na adres",
+    "uslugi": "Usługi",
+    "aukcje": "Aukcje",
+    "nowosci": "Nowości",
+    "promocje": "Promocje",
+    "polecamyRowniez": "Polecamy również"
   }
 }

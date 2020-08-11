@@ -19,3 +19,10 @@ export interface LostLuggage {
   additional_info: string;
 }
 
+export interface RecommendedItems {
+  id: number;
+  image: string;
+  title: string;
+  description: string;
+  price: number;
+}

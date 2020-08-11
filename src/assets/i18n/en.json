@@ -23,6 +23,26 @@
     "ofertaMiles": "Miles&More offer",
     "mapaSerwisu": "Service map",
     "telefon": "Phone number",
-    "formularzKontaktowy": "Contact form"
+    "formularzKontaktowy": "Contact form",
+    "stronaGlowna": "Home",
+    "odwiedzNas": "Visit us on: "
+  },
+  "Placeholder": {
+    "szukajProduktu": "Search for a product..."
+  },
+  "Body": {
+    "dostawaOd": "Delivery from: ",
+    "doKonca": "Time to the end: ",
+    "aktualnaCena": "Actual price ",
+    "cenaKupTeraz": "Price: buy now ",
+    "zawartoscStrony": "This website's content is not available",
+    "zagubionyBagaz": "Lost luggage no: ",
+    "dostawaPoklad": "Delivery on board",
+    "dostawaAdres": "Delivery to your address",
+    "uslugi": "Services",
+    "aukcje": "Auctions",
+    "nowosci": "Latest",
+    "promocje": "Specials",
+    "polecamyRowniez": "We also recommend"
   }
 }

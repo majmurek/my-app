@@ -6,7 +6,7 @@ import {Language} from '../../../model';
 @Component({
   selector: 'app-dropdown-translation',
   templateUrl: './dropdown-translation.component.html',
-  styleUrls: ['./dropdown-translation.component.css']
+  styleUrls: ['./dropdown-translation.component.scss']
 })
 export class DropdownTranslationComponent implements OnInit {
 

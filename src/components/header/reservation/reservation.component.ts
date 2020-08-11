@@ -5,7 +5,7 @@ import {Reservation} from '../../../model';
 @Component({
   selector: 'app-reservation',
   templateUrl: './reservation.component.html',
-  styleUrls: ['./reservation.component.css']
+  styleUrls: ['./reservation.component.scss']
 })
 export class ReservationComponent implements OnInit {
 

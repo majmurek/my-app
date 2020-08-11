@@ -1,0 +1,32 @@
+
+@font-face {
+  font-family: lato;
+  src: url(assets/font/Lato-Regular.ttf) format("opentype");
+
+}
+$text-color: #1a3172;
+$grey-color: #f0f0f0;
+
+p {
+  color: #3a3b75;
+}
+
+.icon-color {
+  color: #1a3172
+}
+
+.nav-tabs {
+  border-bottom: none !important;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+  border-color: white !important;
+  border-bottom: 2px solid #1a3172 !important;
+}
+
+a.nav-link {
+  color: #1a3172;
+}
+
+
+

@@ -15,6 +15,11 @@ import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {DropdownTranslationComponent} from '../components/header/dropdown-translation/dropdown-translation.component';
 import {DescriptionComponent} from '../components/body/description/description.component';
 import {PictureComponent} from '../components/body/picture/picture.component';
+import {CarouselComponent} from '../components/body/carousel/carousel.component';
+import {CarouselCardComponent} from '../components/body/carousel-card/carousel-card.component';
+import {PageNotAvailableComponent} from '../components/body/page-not-available/page-not-available.component';
+import {ApiService} from '../services/api.service';
+import {SearchProductInputComponent} from '../components/header/search-product-input/search-product-input.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +33,11 @@ import {PictureComponent} from '../components/body/picture/picture.component';
     OfferComponent,
     DropdownTranslationComponent,
     DescriptionComponent,
-    PictureComponent
+    PictureComponent,
+    CarouselComponent,
+    CarouselCardComponent,
+    PageNotAvailableComponent,
+    SearchProductInputComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +50,7 @@ import {PictureComponent} from '../components/body/picture/picture.component';
       }
     })
   ],
-  providers: [],
+  providers: [ApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule {
