@@ -3,6 +3,11 @@ export enum Language {
   EN = 'en'
 }
 
+export enum ICON {
+  UP = 'fa-angle-up',
+  DOWN = 'fa-angle-down'
+}
+
 export interface Reservation {
   id: number;
   number: string;
@@ -17,6 +22,7 @@ export interface LostLuggage {
   buy_now_price: number;
   description: string;
   additional_info: string;
+  delivery_term: string;
 }
 
 export interface RecommendedItems {

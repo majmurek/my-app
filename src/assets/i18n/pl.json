@@ -31,8 +31,10 @@
     "szukajProduktu": "Szukaj produktu..."
   },
   "Body": {
-    "dostawaOd": "Dostawa od: ",
+    "dostawa": "Dostawa: ",
+    "od": "od",
     "doKonca": "Do końca pozostało: ",
+    "dni": "dni",
     "aktualnaCena": "Aktualna cena ",
     "cenaKupTeraz": "Cena kup teraz ",
     "zawartoscStrony": "Zawartość strony nie jest dostępna",
@@ -43,6 +45,32 @@
     "aukcje": "Aukcje",
     "nowosci": "Nowości",
     "promocje": "Promocje",
-    "polecamyRowniez": "Polecamy również"
+    "polecamyRowniez": "Polecamy również",
+    "twojaOferta": "Twoja oferta"
+  },
+  "Text": {
+    "abyWziacUdzialWLicytacjiMusiszByc": "Aby wziąć udział w licytacji musisz być",
+    "zalogowany": "zalogowany",
+    "zapoznalemSieZ": "Zapoznałem się z ",
+    "regulaminem": "regulaminem"
+  },
+  "Link": {
+    "login": "https://www.lot.com/pl/pl/login",
+    "regulacje": "https://www.lot.com/pl/pl/regulacje",
+    "licytujZaMnie": "Licytuj za mnie",
+    "lubieTo": "Lubię to!",
+    "udostepnij": "Udostępnij"
+  },
+  "Button": {
+    "licytuj": "Licytuj",
+    "kupTeraz": "Kup teraz"
+  },
+  "DeliveryTerm": {
+    "terminDostawy": "Termin dostawy to 5 dni"
+  },
+  "Collapse": {
+    "opis": "Opis",
+    "dodatkoweInformacje": "Dodatkowe informacje",
+    "terminDostawy": "Termin dostawy"
   }
 }

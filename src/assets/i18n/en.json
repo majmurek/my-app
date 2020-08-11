@@ -31,8 +31,10 @@
     "szukajProduktu": "Search for a product..."
   },
   "Body": {
-    "dostawaOd": "Delivery from: ",
+    "dostawa": "Delivery: ",
+    "od": "from",
     "doKonca": "Time to the end: ",
+    "dni": "days",
     "aktualnaCena": "Actual price ",
     "cenaKupTeraz": "Price: buy now ",
     "zawartoscStrony": "This website's content is not available",
@@ -43,6 +45,32 @@
     "aukcje": "Auctions",
     "nowosci": "Latest",
     "promocje": "Specials",
-    "polecamyRowniez": "We also recommend"
+    "polecamyRowniez": "We also recommend",
+    "twojaOferta": "Your offer"
+  },
+  "Text": {
+    "abyWziacUdzialWLicytacjiMusiszByc": "If you want to participate in auction you must",
+    "zalogowany": "register",
+    "zapoznalemSieZ": "I have read the rules of ",
+    "regulaminem": "procedure"
+  },
+  "Link": {
+    "login": "https://www.lot.com/us/en/",
+    "regulacje": "https://www.lot.com/pl/en/regulations",
+    "licytujZaMnie": "Bid for me",
+    "lubieTo": "Like It!",
+    "udostepnij": "Share"
+  },
+  "Button": {
+    "licytuj": "Bid",
+    "kupTeraz": "Buy now"
+  },
+  "DeliveryTerm": {
+    "terminDostawy": "Delivery term"
+  },
+  "Collapse": {
+    "opis": "Description",
+    "dodatkoweInformacje": "More information",
+    "terminDostawy": "Delivery time"
   }
 }

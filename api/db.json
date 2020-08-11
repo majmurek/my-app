@@ -6,8 +6,8 @@
   "lostluggage": {
     "id": 1,
     "number": 23,
-    "delivery_price": 0,
-    "date_end_auction": "15.11.2020",
+    "delivery_price": 0.00,
+    "date_end_auction":"2020-10-11T10:20:30Z",
     "actual_price": 154,
     "buy_now_price": 1020,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",

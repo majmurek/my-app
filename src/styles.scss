@@ -1,18 +1,26 @@
 
 @font-face {
-  font-family: lato;
-  src: url(assets/font/Lato-Regular.ttf) format("opentype");
-
+  font-family: lato !important;
+  src: url(assets/font/Lato-Regular.ttf) format("opentype") !important;
 }
+
+
+  $sx-font-size: 10px;
+  $sm-font-size: 12px;
+  $md-font-size: 14px;
+  $lg-font-size: 16px;
+  $xl-font-size: 18px;
+  $xxl-font-size: 20px;
+
 $text-color: #1a3172;
 $grey-color: #f0f0f0;
 
-p {
-  color: #3a3b75;
+p, label {
+  color: $text-color;
 }
 
 .icon-color {
-  color: #1a3172
+  color: $text-color;
 }
 
 .nav-tabs {
@@ -28,5 +36,10 @@ a.nav-link {
   color: #1a3172;
 }
 
+.btn-like-it {
+  border-color: $text-color;
+  background-color: $text-color;
+  color: white;
+}
 
 

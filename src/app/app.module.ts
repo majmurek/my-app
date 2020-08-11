@@ -20,6 +20,8 @@ import {CarouselCardComponent} from '../components/body/carousel-card/carousel-c
 import {PageNotAvailableComponent} from '../components/body/page-not-available/page-not-available.component';
 import {ApiService} from '../services/api.service';
 import {SearchProductInputComponent} from '../components/header/search-product-input/search-product-input.component';
+import {ReactiveFormsModule} from '@angular/forms';
+import {CollapseComponent} from '../components/body/collapse/collapse.component';
 
 @NgModule({
   declarations: [
@@ -37,19 +39,21 @@ import {SearchProductInputComponent} from '../components/header/search-product-i
     CarouselComponent,
     CarouselCardComponent,
     PageNotAvailableComponent,
-    SearchProductInputComponent
+    SearchProductInputComponent,
+    CollapseComponent
   ],
-  imports: [
-    BrowserModule,
-    HttpClientModule,
-    TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useFactory: HttpLoaderFactory,
-        deps: [HttpClient]
-      }
-    })
-  ],
+    imports: [
+        BrowserModule,
+        HttpClientModule,
+        TranslateModule.forRoot({
+            loader: {
+                provide: TranslateLoader,
+                useFactory: HttpLoaderFactory,
+                deps: [HttpClient]
+            }
+        }),
+        ReactiveFormsModule
+    ],
   providers: [ApiService],
   bootstrap: [AppComponent]
 })

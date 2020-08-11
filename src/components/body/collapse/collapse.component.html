@@ -1,0 +1,21 @@
+<p>
+  <button class="p-2 w-100 border-0 collapse-background-color"
+          (click)="changeIcon()"
+          type="button"
+          data-toggle="collapse"
+          [attr.data-target]="'#collapseExample' + index"
+          aria-expanded="false"
+          [attr.aria-controls]="'collapseExample' + index">
+
+  <div class="d-flex justify-content-between">
+    <div class="text-uppercase font-weight-bold">{{title}}</div>
+    <i class="fa {{collapseIcon}} fa-2x"></i>
+  </div>
+  </button>
+</p>
+<div class="collapse" id="collapseExample{{index}}">
+  <div class="card card-body border-0">
+    {{description}}
+  </div>
+</div>
+

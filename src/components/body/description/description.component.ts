@@ -27,6 +27,18 @@ export class DescriptionComponent implements OnInit {
     return this.lostLuggage ? this.lostLuggage.date_end_auction : '';
   }
 
+  get countDays(): number {
+    const now = new Date();
+    const end = this.dateEndAuction ? new Date(this.dateEndAuction) : new Date();
+    const diff = Math.abs(Number(end) - Number(now));
+    if (diff !== 0) {
+      const days = (diff / (60 * 60 * 24 * 1000));
+      return Math.floor(days);
+    } else {
+      return 0;
+    }
+  }
+
   get actualPrice(): number {
     return this.lostLuggage ? this.lostLuggage.actual_price : null;
   }
@@ -41,6 +53,10 @@ export class DescriptionComponent implements OnInit {
 
   get additionalInfo(): string {
     return this.lostLuggage ? this.lostLuggage.additional_info : '';
+  }
+
+  get deliveryTerm(): string {
+    return this.lostLuggage ? this.lostLuggage.delivery_term : '';
   }
 
 }

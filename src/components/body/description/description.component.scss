@@ -1,0 +1,21 @@
+@import "src/styles";
+
+.font-size-sm {
+  font-size: $sm-font-size;
+}
+
+.font-size-xxl {
+  font-size: $xxl-font-size;
+}
+
+.text-color-gray {
+  color: grey;
+}
+
+.font-size-md {
+  font-size: $md-font-size;
+}
+
+.description-background-color {
+  background: $grey-color;
+}
